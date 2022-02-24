@@ -11,13 +11,6 @@ private:
 public:
 
     //Constuctors
-    /*
-    BankCard(){
-        bankName = "";
-        holderName = "";
-        year = 2000;
-    }
-    */
     BankCard(string tempBankName = "", string tempHolderName = "", int tempYear = 2000) {
         bankName = tempBankName;
         holderName = tempHolderName;
